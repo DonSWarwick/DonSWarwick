@@ -1,0 +1,8 @@
+weight = float(input("Weight: "))
+pick_a_type = input("(K)g or (L)bs: ").lower()
+if pick_a_type == "k" or "kg":
+    kg_convert = weight * 0.45359237
+    print(kg_convert)
+else:
+    lb_convert = weight * 2.2
+    print(lb_convert)
